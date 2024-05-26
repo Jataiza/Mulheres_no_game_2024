@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/redefinir.css">
+    <title>Mulheres no Game</title>
+</head>
+
+<body>
+    <!--Criação login-->
+    <div class="form-container">
+        <div class="container">
+            <div class="text">
+                <p>Identificamos que houve uma solicitação de recuperação de senha associada à sua conta. Para garantir
+                    a segurança dos seus dados, estamos procedendo com o envio de um e-mail contendo as instruções
+                    necessárias para redefinir sua senha.</p>
+            </div>
+            <div class="login-form">
+                <h1>Receba o link de redefinição:</h1>
+                <label for="username">Email:</label>
+                <input type="email" id="username" name="username" required>
+                </label>
+                <button type="submit" onclick="enviar()">Enviar</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function enviar() {
+            alert('Email enviado com sucesso !');
+            window.location.href = 'index.html'; // Redireciona para a página inicial
+        }
+    </script>
+
+</body>
+
+</html>

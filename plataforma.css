@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("/Img/DEGRADÊ\ PLANO\ DE\ FUNDO.png");
+    
+}
+
+.navbar {
+    background-color: #0F1140;
+    overflow: hidden;
+    
+}
+
+.navbar a {
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #DD01E8;
+    color: rgb(255, 255, 255);
+}
+
+.navbar a.right {
+    float: right;
+}
+
+.sidebar {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    left: 0;
+    background-color: #3b0056;
+    
+   
+}
+
+.sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.sidebar a:hover {
+    background-color: #360137;
+}
+
+.main-content {
+    margin-left: 200px;
+    padding: 20px;
+    position: fixed;
+}
+h1{
+    color: white;
+}
+
+.card {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+.card p {
+    margin-bottom: 0;
+}
+
+.chat {
+    position: fixed;
+    top: 150px; /* Ajuste conforme necessário */
+    right: 10px;
+    margin-top: 30px;
+    width: 200px; /* Ajuste conforme necessário */
+    padding: 20px;
+    background-color: #4f1770;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.user {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-top: 0px;
+    
+}
+
+.user img {
+    width: 50px; /* Ajuste o tamanho da foto conforme necessário */
+    height: 50px; /* Ajuste o tamanho da foto conforme necessário */
+    border-radius: 50%; /* Para tornar a foto redonda */
+    margin-right: 10px;
+}
+
+.user span {
+    font-weight: bold;
+}
+

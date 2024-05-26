@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("/Img/DEGRADÊ\ PLANO\ DE\ FUNDO.png");
+}
+
+.container {
+    display: flex;
+    background-color: #312b2b;
+    padding: 50px;
+    background: #160151;
+    border-radius: 8px;
+}
+
+h3 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+}
+
+.text {
+    margin-right: 80px;
+    margin-top: 30px;
+    max-width: 300px;
+    font-size: 20px;
+    color: white;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.login-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.login-form input {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 417px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-form button {
+    padding: 10px;
+    width: 80px;
+    margin: 2px;
+    border: #000 solid 1px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #1f001f;
+    color: white;
+
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.actions a {
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+
+}

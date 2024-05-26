@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    background-image: url(/Img/DEGRADÊ\ PLANO\ DE\ FUNDO.png);
+    background-repeat: no-repeat;
+}
+
+form {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 900px;
+    margin: 100px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    color: #666;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="file"],
+input[type="date"] {
+    width: calc(100% - 12px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    background-color: #290129;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+    background-color: #52013d;
+}
